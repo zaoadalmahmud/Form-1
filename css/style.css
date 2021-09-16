@@ -1,0 +1,143 @@
+/*font-family: 'IBM Plex Sans', sans-serif;
+ font-family: 'Josefin Sans', sans-serif;  */
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+header{
+
+background: #5CBAFF;
+}
+header nav{
+
+width: 38%;
+
+margin: auto;
+}
+header nav ul{
+    
+list-style: none;
+    
+display: flex;
+    
+justify-content: space-between;
+    
+padding: 20px 0;
+    
+text-transform: uppercase;
+    
+font-size: 14px;
+    
+align-items: center;
+}
+header nav ul li{
+    font-family: 'Josefin Sans', sans-serif;
+}
+header nav ul li a{
+    
+text-decoration: none;
+    
+color: #fff;
+}
+header nav ul li a img{
+    
+}
+.content{
+
+display: flex;
+
+height: 90vh;
+}
+.featured{
+
+width: 40%;
+
+background: #5CBAFF;
+
+text-align: center;
+}
+.featured img{
+
+width: 90%;
+}
+.contact_form{
+    width: 60%;background: #0093FF;align-items: center;display: flex;/* margin: auto; */
+}
+.contact{
+    width: 40%;margin: auto;
+}
+.contact h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+color: #fff;
+}
+.contact p{
+    font-family: 'Josefin Sans', sans-serif;
+margin: 12px 0 23px 0;
+    
+color: #fff;
+}
+.contact h4{
+    font-family: 'IBM Plex Sans', sans-serif;
+color: #fff;
+    
+text-transform: capitalize;
+    
+padding-bottom: 8px;
+}
+.contact form{
+    
+/* margin: 10px 10px 10px 10px; */
+    
+/* width: 100%; */
+}
+.contact form input{
+    
+margin: 10px 0px 8px 0px;
+    
+padding: 10px 0px 10px 10px;
+    
+width: 100%;
+    
+border: none;
+}
+.contact form input[type="submit"]{
+    width: auto;
+    padding: 0;
+    padding: 8px 6px 8px 6px;
+    color: #0093FF;
+}
+.social{
+
+/* display: flex; */
+
+/* justify-content: space-between; */
+
+margin: auto;
+
+width: 100%;
+}
+.social ul{
+
+display: flex;
+
+color: #fff;
+
+flex-wrap: wrap;
+}
+.social ul li{
+    font-family: 'IBM Plex Sans', sans-serif;
+padding: 45px 17px 0px 0px;
+
+font-size: 13px;
+}
+.social ul :first-child{
+
+font-weight: normal;
+}
+.social ul li a{
+
+text-decoration: none;
+
+color: #fff;
+}
